@@ -41,7 +41,7 @@ Doh! I missed a deprecation warning so I quickly fixed it in a separate commit s
 
 This commit will serve as a baseline for the bonus rounds steps later.
 
-## Commit 5: UI improvements
+## Commit 5 + 6: UI improvements
 
 - I added a validation utility that validates the input values using my favourite validation library `Joi`.
 - I added a more traditional form layout and a table to display the results to make the UI less confusing to the user.
