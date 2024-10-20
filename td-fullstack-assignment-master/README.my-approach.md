@@ -32,3 +32,11 @@ The assumption is that in the actual TalentDesk codebase migration to typescript
 ## Commit 3: Small maintenance tweak
 
 Doh! I missed a deprecation warning so I quickly fixed it in a separate commit seeing as I was getting ready to do the actual work.
+
+## Commit 4: Implement the function
+
+- I implemented the `detectSums` function
+- I added jest tests for the cases listed in the Readme
+- The requirements ended up being a bit more complex than I initially anticipated. Really a fun exercise!
+
+This commit will serve as a baseline for the bonus rounds steps later.
