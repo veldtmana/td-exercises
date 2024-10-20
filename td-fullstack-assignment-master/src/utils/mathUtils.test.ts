@@ -1,11 +1,15 @@
 /* eslint-env mocha */
+import { describe, it } from '@jest/globals';
+
 import { expect } from 'chai';
-import { detectSums } from './utils';
+import { detectSums } from '../utils';
 
 describe('Detect sums', () => {
-  it('should fail if input is not an array', () => {
-    expect(() => detectSums()).to.throw('Input is not an array');
-  });
+  // Because we are using typescript we no longer need to make our code resilient
+  // to bad inputs. This logic will live elsewhere in the codebase
+  // it('should fail if input is not an array', () => {
+  //   expect(() => detectSums()).to.throw('Input is not an array');
+  // });
 
   it('should return an array', () => {
     const result = detectSums([]);
