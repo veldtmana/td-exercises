@@ -28,3 +28,7 @@ The assumption is that in the actual TalentDesk codebase migration to typescript
 - I converted `detectSums` function to typescript and moved them to a new mathUtils.ts file
 - I added types to the jest tests
 - I made sure this works in production by ensuring that `yarn build` still compiles correctly and that the built code runs in the browser
+
+## Commit 3: Small maintenance tweak
+
+Doh! I missed a deprecation warning so I quickly fixed it in a separate commit seeing as I was getting ready to do the actual work.
