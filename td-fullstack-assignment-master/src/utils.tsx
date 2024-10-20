@@ -1,13 +1,15 @@
 import { detectSums } from './utils/mathUtils';
+import { isValid } from './utils/validationUtils';
 
-export function calculateResult(input: string): { input: number[]; result: number[] | null; error: string | null } {
-  const parsedInput = input.split(',').map(i => parseInt(i.trim(), 10));
+export function calculateResult(parsedArray: number[]): { result: any[] | null; error: string | null } {
   let error: string | null = null;
-  let result: number[] | null = null;
+  let result: any[] | null = null;
   try {
-    result = detectSums(parsedInput);
+    result = detectSums(parsedArray);
   } catch (e) {
     error = (e as Error).message;
   }
-  return { input: parsedInput, result, error };
+  return { result, error };
 }
+
+export { isValid };

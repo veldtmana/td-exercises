@@ -40,3 +40,13 @@ Doh! I missed a deprecation warning so I quickly fixed it in a separate commit s
 - The requirements ended up being a bit more complex than I initially anticipated. Really a fun exercise!
 
 This commit will serve as a baseline for the bonus rounds steps later.
+
+## Commit 5: UI improvements
+
+- I added a validation utility that validates the input values using my favourite validation library `Joi`.
+- I added a more traditional form layout and a table to display the results to make the UI less confusing to the user.
+- The table includes a breakdown of the actual sums found, not just the array indexes.
+- I added some basic styling to make things look more presentable but I tried to retain the minimalist design of the original which I liked.
+- The error handling in the react form is very thin, but the implementation prevents errors from occurring.
+
+I could have spent more time splitting out components from `App.js` to make the code more modular and easier to maintain. However, to make it easy to reason about the code I left it in one place.
