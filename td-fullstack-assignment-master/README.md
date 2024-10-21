@@ -1,3 +1,5 @@
+# Readme
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -6,15 +8,18 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
+Runs the app in the development mode.
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
+The page will reload if you make edits.
+
 You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
+Launches the test runner in the interactive watch mode.
+
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## Assignment
@@ -25,18 +30,16 @@ Complete the React Component under `App.js` in order to calculate a specific fun
 
 The Component must have a user input, parse it, run the function on it and report the results.
 
- - In case of an error, or an empty input, it should show a respective error message to the user.
- - You may write tests, to make sure the component renders the correct information according to each case.
- - You may install and use any third party libraries you may need either for the component, the form or the tests.
-
+- In case of an error, or an empty input, it should show a respective error message to the user.
+- You may write tests, to make sure the component renders the correct information according to each case.
+- You may install and use any third party libraries you may need either for the component, the form or the tests.
 
 ### Function definition
 
 `detectSums()`:
 
- - Input: an array of numbers, e.g. `A = [1, 2, 3]`
- - Output: an array of matches, as objects, containing keys `pA`, `pB`, `sum` such that `A[p1] + A[p2] === A[sum]`, e.g. `[{ pA: 0, pB: 1, sum: 2 }]]`
-
+- Input: an array of numbers, e.g. `A = [1, 2, 3]`
+- Output: an array of matches, as objects, containing keys `pA`, `pB`, `sum` such that `A[p1] + A[p2] === A[sum]`, e.g. `[{ pA: 0, pB: 1, sum: 2 }]]`
 
 #### Details
 
@@ -47,10 +50,9 @@ The Component must have a user input, parse it, run the function on it and repor
 - You should use ES6 syntax
 - You may provide multiple versions of the function, detailing advantages/disadvantages of each
 
-
 #### Example invocations
 
-```
+``` bash
 $ babel-node
 > var { detectSums } = require('./src/utils');
 undefined
@@ -90,9 +92,6 @@ undefined
   { pA: 2, pB: 3, sum: 4 } ]
 >
 ```
-
-
-
 
 ### Bonus
 

@@ -20,6 +20,78 @@
   color: red;
 }
 
+.App-form {
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 60%;
+}
+
+.App-input-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.App-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.App-input-label {
+  font-size: 1rem;
+}
+
+.App-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.App-input-error {
+  border-color: red;
+}
+
+.App-validation-error {
+  position: absolute;
+  left: 0;
+  top: -2.5rem;
+  font-size: 0.8rem;
+  color: red;
+  margin-bottom: 0.5rem;
+}
+
+.App-input-row button{
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+
+.App-result-table {
+  width: 100%;
+  max-width: 60%;
+  border-collapse: collapse;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.App-result-table th {
+  text-align: center;
+}
+
+.App-result-table th,
+.App-result-table td {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-bottom: 1px solid #ababab;
+}
+
+.App-result-table-sums ol {
+  list-style-type: none;
+  white-space: nowrap
+}
+
 .App-link {
   color: #61dafb;
 }
